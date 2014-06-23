@@ -920,7 +920,7 @@ Scheme{Colors{
 			"1"
 			{
 				"name"		"SurfaceHPAmmo-Medium"
-				"tall"		"72"
+				"tall"		"72" // try "60" at lower resolutions
 				"additive"	"0"
 				"antialias" 	"1"
 				"outline"	"0"
@@ -931,7 +931,7 @@ Scheme{Colors{
 			"1"
 			{
 				"name"		"SurfaceHPAmmo-Medium"
-				"tall"		"72"
+				"tall"		"72" // try "60" at lower resolutions
 				"additive"	"0"
 				"antialias" 	"1"
 				"outline"	"0"
@@ -1877,7 +1877,7 @@ Scheme{Colors{
 		{
 			"1"
 			{
-				"name"		"SurfaceSharpened-Medium"
+				"name"		"Surface-Medium"
 				"tall"		"10"
 				"additive"	"0"
 				"antialias" 	"1"

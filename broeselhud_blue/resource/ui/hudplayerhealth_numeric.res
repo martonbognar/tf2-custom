@@ -47,14 +47,14 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
 		"xpos"		"272"
-		"ypos"		"30"
+		"ypos"		"27"
 		"zpos"		"-4"
 		"wide"		"66"
 		"tall"		"66"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"		"../hud/health_over_bg"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 	}
 	"PlayerStatusHealthValue"
 	{

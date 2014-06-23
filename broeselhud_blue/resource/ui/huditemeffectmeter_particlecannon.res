@@ -6,7 +6,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c-37"
-		"ypos"			"r120"
+		"ypos"			"r123"
 		"wide"			"74"
 		"tall"			"50"
 		"MeterFG"		"White"
@@ -37,7 +37,7 @@
 		"xpos"					"0"
 		"ypos"					"-2"
 		"zpos"					"10"
-		"wide"					"74" //74
+		"wide"					"74"
 		"tall"					"9"
 		"autoResize"			"1"
 		"pinCorner"				"2"

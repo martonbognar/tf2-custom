@@ -34,24 +34,17 @@
 	{
 		"ControlName"			"Label"
 		"fieldName"				"ItemEffectMeterLabel"
-		"xpos"					"500"
-	}
-
-	"ItemEffectMeterLabel"
-	{
-		"ControlName"			"Label"
-		"fieldName"				"ItemEffectMeterLabel"
 		"xpos"					"0"
 		"ypos"					"-2"
 		"zpos"					"10"
-		"wide"					"74" //74
+		"wide"					"74"
 		"tall"					"9"
 		"autoResize"			"1"
 		"pinCorner"				"2"
 		"visible"				"1"
 		"enabled"				"1"
 		"tabPosition"			"0"
-		"labelText"				"POMSON"
+		"labelText"				"#TF_ENERGYDRINK"
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
