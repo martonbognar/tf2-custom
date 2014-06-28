@@ -59,6 +59,28 @@
 		"font"			"surfaceUber"
 		"fgcolor"   "255 255 255 255"
 	}
+    
+    "ChargeLabelSmall"
+    {
+    "ControlName" "CExLabel"
+    "fieldName" "ChargeLabelSmall"
+    "xpos" "c-50"
+    "ypos" "c104"
+    "zpos" "3"
+    "wide" "100"
+    "tall" "15"
+    "autoResize" "1"
+    "pinCorner" "2"
+    "visible" "1"
+    "enabled" "1"
+    "tabPosition" "0"
+    "labelText" "#TF_UberchargeMinHUD"
+    "textAlignment" "center"
+    "dulltext" "0"
+    "brighttext" "0"
+    "fgcolor" "0 0 0 255"
+    "font" "surface16"
+    }
 	
 	"HealthClusterIcon"
 	{
