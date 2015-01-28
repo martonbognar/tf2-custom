@@ -313,8 +313,8 @@
 		"enabled"		"1"
 		"labelText"		"#game_respawntime_in_secs"
 		"textAlignment"		"center"
-		"font"			"surface13"
-		"fgcolor_override" "255 255 255 200"
+		"font"			"surface14shadow"
+		"fgcolor_override" "255 255 255 255"
 		
 		"if_mvm"
 		{

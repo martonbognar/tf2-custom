@@ -16,7 +16,7 @@
 		"enabled"		"1"
 		"tabPosition"		"0"
 		"avatar_width"		"57"
-		"name_width"		"95" // If the pings are cut off, lower this value in decrements of 5.
+		"name_width"		"95" // "90" if ping column cuts off
 		"status_width"		"15"
 		"nemesis_width"		"15"
 		"class_width"		"15"
@@ -465,8 +465,8 @@
 		"ypos"		"333"
 		"ypos_minmode"	"399"
 		"zpos"			"4"
-		"wide"		"424"
-		"wide_minmode"	"251"
+		"wide"		"518"
+		"wide_minmode"	"260"
 		"tall"	"20"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -603,12 +603,12 @@
 		"labelText"		"%mapname%"
 		"textAlignment"		"center"
 		"xpos"		"51"
-		"xpos_minmode"	"6"
+		"xpos_minmode"	"12"
 		"ypos"		"380"
 		"ypos_minmode"	"370"
 		"zpos"			"3"
-		"wide"		"89"
-		"wide_minmode"	"100"
+		"wide"		"90"
+		"wide_minmode"	"90"
 		"tall"		"20"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -618,7 +618,7 @@
 		
 		if_mvm
 		{
-			"xpos_minmode"	"31"
+			"xpos_minmode"	"37"
 			"ypos"			"440"
 			"ypos_minmode"	"413"
 		}

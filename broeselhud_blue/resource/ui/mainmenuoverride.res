@@ -153,7 +153,7 @@
 		"PaintBackgroundType"	"2"
 		"border"		"MainMenuBGBorderAlpha"
 	}
-					
+	
 	"TFLogoImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -176,7 +176,7 @@
 		"xpos"			"c-250"
 		"ypos"			"-80"
 		"zpos"			"-99"
-		"wide"			"600"
+		"wide"			"0" //600
 		"tall"			"600"
 		"visible"		"1"
 		"enabled"		"1"

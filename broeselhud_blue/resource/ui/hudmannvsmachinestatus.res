@@ -61,7 +61,7 @@
 		"fieldName"			"InWorldCurrencyPanel"
 		"xpos"				"c-210"
 		"ypos"				"r39"
-		"wide"				"100"
+		"wide"				"130"
 		"tall"				"100"
 		"visible" 			"1"
 		"enabled" 			"1"

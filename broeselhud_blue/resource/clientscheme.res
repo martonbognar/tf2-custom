@@ -5,116 +5,35 @@ Scheme{Colors{
 ///////////////////////////////////////////////////////////
 
 
-	"HP"                  "255 255 255 255"
+	"HP"					"255 255 255 255"
+	
+	"low HP"				"255 255 255 255"
+	"buffed HP"				"255 255 255 255"
+	"buff shadow"			"0 0 0 255" // "50 205 50 255" to enable the green buff shadow
+	
+	"TargetID low HP"		"255 165 0 255"
+	"TargetID buffed HP"	"50 205 50 255"
+	"TargetID info"			"255 255 0 255"
 
-	"low HP"              "255 255 255 255"
-	"buffed HP"           "255 255 255 255"
-	"buff shadow"         "50 205 50 255" // make this "0 0 0 255" to remove the green buffed HP shadow
-
-	"TargetID low HP"     "255 165 0 255"
-	"TargetID buffed HP"  "50 205 50 255"
-	"TargetID info"       "255 255 0 255"
-
-	"Ammo in Clip"        "255 255 255 255"
-	"Ammo in Reserve"     "168 168 168 255"
-
-	"Damage Numbers"      "255 255 255 255"
-	"Heal Numbers"        "50 205 50 255"
-	"Last Damage done"    "255 255 0 255"
-
-	"Ubercharge Bar"      "255 255 255 255"
-
-	"Ubercharge Full 1"   "61 202 53 255"
-	"Ubercharge Full 2"   "19 165 12 255"
-
-	"Low-Ammo Clip"       "255 255 255 255"
-	"Low-Ammo Reserve"    "168 168 168 255"
-	"Low-Ammo Shadow"     "255 0 0 255" // make this "0 0 0 255" to remove the red ammo warning shadow
+	"Ammo in Clip"			"255 255 255 255"
+	"Ammo in Reserve"		"168 168 168 255"
+	
+	"Damage Numbers"		"255 255 255 255"
+	"Heal Numbers"			"50 205 50 255"
+	"Last Damage done"		"255 255 0 255"
+	
+	"Ubercharge Bar"		"255 255 255 255"
+	"Ubercharge Full 1"		"61 202 53 255"
+	"Ubercharge Full 2"		"19 165 12 255"
+	
+	"Low-Ammo Clip"			"255 255 255 255"
+	"Low-Ammo Reserve"		"168 168 168 255"
+	"Low-Ammo Shadow"		"255 0 0 255" // "0 0 0 255" to remove the red ammo warning shadow
 
 
 ///////////////////////////////////////////////////////////
 /////////// END OF COLOR CUSTOMIZATION SECTION ////////////
 ///////////////////////////////////////////////////////////
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -632,6 +551,18 @@ Scheme{Colors{
 				"outline"	"0"
 			}
 		}
+		surface13shadow
+		{
+			"1"
+			{
+				"name"		"Surface-Medium"
+				"tall"		"13"
+				"additive"	"0"
+				"antialias" 	"1"
+				"outline"	"0"
+				"dropshadow"	"1"
+			}
+		}
 		surface14
 		{
 			"1"
@@ -641,6 +572,18 @@ Scheme{Colors{
 				"additive"	"0"
 				"antialias" 	"1"
 				"outline"	"0"
+			}
+		}
+		surface14shadow
+		{
+			"1"
+			{
+				"name"		"Surface-Medium"
+				"tall"		"14"
+				"additive"	"0"
+				"antialias" 	"1"
+				"outline"	"0"
+				"dropshadow"	"1"
 			}
 		}
 		surface15
@@ -677,6 +620,18 @@ Scheme{Colors{
 				"outline"	"0"
 			}
 		}
+		surface16shadow
+		{
+			"1"
+			{
+				"name"		"Surface-Medium"
+				"tall"		"16"
+				"additive"	"0"
+				"antialias" 	"1"
+				"outline"	"0"
+				"dropshadow"	"1"
+			}
+		}
 		surface18
 		{
 			"1"
@@ -686,6 +641,17 @@ Scheme{Colors{
 				"additive"	"0"
 				"antialias" 	"1"
 				"outline"	"0"
+			}
+		}
+		surface18outline
+		{
+			"1"
+			{
+				"name"		"Surface-Medium"
+				"tall"		"18"
+				"additive"	"0"
+				"antialias" 	"1"
+				"outline"	"1"
 			}
 		}
 		surface18shadow
@@ -743,6 +709,17 @@ Scheme{Colors{
 				"additive"	"0"
 				"antialias" 	"1"
 				"outline"	"0"
+			}
+		}
+		surface23outline
+		{
+			"1"
+			{
+				"name"		"Surface-Medium"
+				"tall"		"23"
+				"additive"	"0"
+				"antialias" 	"1"
+				"outline"	"1"
 			}
 		}
 		surface23shadow
@@ -876,6 +853,17 @@ Scheme{Colors{
 			"1"
 			{
 				"name"		"SurfaceSharpened-Medium"
+				"tall"		"46"
+				"additive"	"0"
+				"antialias" 	"1"
+				"outline"	"0"
+			}
+		}
+		surface52
+		{
+			"1"
+			{
+				"name"		"SurfaceSharpened-Medium"
 				"tall"		"52"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -904,34 +892,12 @@ Scheme{Colors{
 				"outline"	"0"
 			}
 		}
-		surfaceHPAmmo28
-		{
-			"1"
-			{
-				"name"		"SurfaceHPAmmo-Medium"
-				"tall"		"28"
-				"additive"	"0"
-				"antialias" 	"1"
-				"outline"	"0"
-			}
-		}
-		surfaceHPAmmo72
-		{
-			"1"
-			{
-				"name"		"SurfaceHPAmmo-Medium"
-				"tall"		"72" // try "60" at lower resolutions
-				"additive"	"0"
-				"antialias" 	"1"
-				"outline"	"0"
-			}
-		}
 		surfaceUber
 		{
 			"1"
 			{
-				"name"		"SurfaceHPAmmo-Medium"
-				"tall"		"72" // try "60" at lower resolutions
+				"name"		"SurfaceSharpened-Medium"
+				"tall"		"60"
 				"additive"	"0"
 				"antialias" 	"1"
 				"outline"	"0"
@@ -955,6 +921,17 @@ Scheme{Colors{
 			{
 				"name"		"SurfaceNumbers-Medium"
 				"tall"		"18"
+				"additive"	"0"
+				"antialias" 	"1"
+				"outline"	"0"
+			}
+		}
+		surfaceNumbers28
+		{
+			"1"
+			{
+				"name"		"SurfaceNumbers-Medium"
+				"tall"		"28"
 				"additive"	"0"
 				"antialias" 	"1"
 				"outline"	"0"
@@ -1872,7 +1849,129 @@ Scheme{Colors{
 				"outline"	"1"
 			}
 		}
-
+		"konr16"
+		{
+			"1"
+			{
+				"name"			"Garm3nFont"
+				"tall"			"16" 
+				"weight"		"0"
+				"antialias"		"1"
+			}
+		}
+		"konr18"
+		{
+			"1"
+			{
+				"name"			"Garm3nFont"
+				"tall"			"18" 
+				"weight"		"0"
+				"antialias"		"1"
+			}
+		}
+		"konr20"
+		{
+			"1"
+			{
+				"name"			"Garm3nFont"
+				"tall"			"20" 
+				"weight"		"0"
+				"antialias"		"1"
+			}
+		}
+		"konr22"
+		{
+			"1"
+			{		
+				"name"			"Garm3nFont"
+				"tall"			"22" 
+				"weight"		"0"
+				"antialias"		"1"
+			}
+		}
+		"konr24"
+		{
+			"1"
+			{		
+				"name"			"Garm3nFont"
+				"tall"			"24" 
+				"weight"		"0"
+				"antialias"		"1"
+			}
+		}
+		"seeker10"
+		{
+			"1"
+			{
+				"name"			"tf2cross"
+				"tall"			"10"
+				"weight"		"0"
+				"antialias"		"1"
+				"additive"		"0"
+				"outline"		"0"
+			}
+		}
+		"seeker10outline"
+		{
+			"1"
+			{
+				"name"			"tf2cross"
+				"tall"			"10"
+				"weight"		"0"
+				"antialias"		"1"
+				"additive"		"0"
+				"outline"		"1"
+			}
+		}
+		"seeker11"
+		{
+			"1"
+			{
+				"name"			"tf2cross"
+				"tall"			"11"
+				"weight"		"0"
+				"antialias"		"1"
+				"additive"		"0"
+				"outline"		"0"
+			}
+		}
+		"seeker11outline"
+		{
+			"1"
+			{
+				"name"			"tf2cross"
+				"tall"			"11"
+				"weight"		"0"
+				"antialias"		"1"
+				"additive"		"0"
+				"outline"		"1"
+			}
+		}
+		"seeker12"
+		{
+			"1"
+			{
+				"name"			"tf2cross"
+				"tall"			"12"
+				"weight"		"0"
+				"antialias"		"1"
+				"additive"		"0"
+				"outline"		"0"
+			}
+		}
+		"seeker12outline"
+		{
+			"1"
+			{
+				"name"			"tf2cross"
+				"tall"			"12"
+				"weight"		"0"
+				"antialias"		"1"
+				"additive"		"0"
+				"outline"		"1"
+			}
+		}
+		
 		"Default"
 		{
 			"1"
@@ -2354,7 +2453,7 @@ Scheme{Colors{
 		{
 			"1"
 			{
-				"name"		"SurfaceSharpened-Medium"
+				"name"		"Surface-Medium"
 				"tall"		"10"
 				"weight"	"500"
 				"additive"	"0"
@@ -5266,23 +5365,28 @@ Scheme{Colors{
 		}
 		"10"
 		{
-			"font" "resource/fonts/Surface-HP-and-Ammo.ttf"
-			"name" "SurfaceHPAmmo-Medium"
-		}
-		"11"
-		{
 			"font" "resource/fonts/Crosshairs.ttf"
 			"name" "broeselhud Crosshairs"
 		}
-		"12"
+		"11"
 		{
 			"font" "resource/fonts/Blank.ttf"
 			"name" "Blank"
 		}
-		"13"
+		"12"
 		{
 			"font" "resource/fonts/Blocks.ttf"
 			"name" "Blocks"
+		}
+		"13"
+		{
+			"font" "resource/fonts/Garm3nFont.ttf"
+			"name" "Garm3nFont"
+		}
+		"14"
+		{
+			"font" "resource/fonts/tf2cross.ttf"
+			"name" "tf2cross"
 		}
 	}
 }

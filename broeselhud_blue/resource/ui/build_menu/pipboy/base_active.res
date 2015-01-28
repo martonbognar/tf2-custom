@@ -20,7 +20,7 @@
 		"brighttext"	"0"
 		"fgcolor"		"0 255 0 255"
 	}
-
+	
 	"ItemBackground"
 	{
 		"ControlName"	"CIconPanel"
@@ -37,7 +37,7 @@
 		"iconColor"		"0 0 0 255"
 	}
 	
-	"BuildingIcon"	
+	"BuildingIcon"
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"BuildingIcon"
@@ -53,7 +53,7 @@
 		"iconColor"		"0 255 0 255"
 	}
 	
-	"MetalIcon"	
+	"MetalIcon"
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"MetalIcon"

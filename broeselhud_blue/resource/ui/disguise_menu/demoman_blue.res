@@ -1,7 +1,7 @@
 "Resource/UI/disguise_menu/demoman_blue.res"
 {
 	"ItemNameLabel"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ItemName"
 		"font"			"surface13"
@@ -19,8 +19,8 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 	}
-		
-	"ClassIcon"	
+	
+	"ClassIcon"
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"ClassIcon"
@@ -31,11 +31,11 @@
 		"tall"			"48"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"icon"			"hud_menu_demoman_blu"
 	}
 	
-	"NumberBg"	
+	"NumberBg"
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"NumberBg"
@@ -46,13 +46,13 @@
 		"tall"			"15"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"icon"			"ico_key_blank"
 		"iconColor"		"255 255 255 255"
 	}
 	
 	"NewNumberLabel"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
 		"font"			"surface13"
@@ -73,7 +73,7 @@
 	}
 	
 	"NumberLabel"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
 		"font"			"surface13"
