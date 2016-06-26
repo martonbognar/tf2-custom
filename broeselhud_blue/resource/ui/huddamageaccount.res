@@ -27,6 +27,23 @@
 		"labelText"				"%metal%"
 		"textAlignment"			"center"
 		"fgcolor"				"Last Damage done"
-		"font"					"surface20shadow"
+		"font"					"surface20"
+	}
+	
+	"DamageAccountValueBG"
+	{
+		"ControlName"			"CExLabel"
+		"fieldName"				"DamageAccountValueBG"
+		"xpos"					"c110"
+		"ypos"					"r145"
+		"zpos"					"1"
+		"wide"					"101"
+		"tall"					"27"
+		"visible"				"1"
+		"enabled"				"1"
+		"labelText"				"%metal%"
+		"textAlignment"			"center"
+		"fgcolor"				"0 0 0 255"
+		"font"					"surface20"
 	}
 }

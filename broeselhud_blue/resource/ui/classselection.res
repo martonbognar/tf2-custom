@@ -686,7 +686,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"#EditLoadout"
+		"labelText"		"Edit Loadout (&E)"
 		"textAlignment"	"center"
 		"Command"		"openloadout"
 		"font"			"HudFontSmallBold"

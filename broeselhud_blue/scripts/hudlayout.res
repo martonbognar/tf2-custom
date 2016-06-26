@@ -49,7 +49,7 @@
 		"ypos"						"c-25"
 		"wide"						"50"
 		"tall"						"50"
-		"font"						"size: 18, outline: off"
+		"font"						"size: 18, outline: on"
 		"labelText"					"c"
 		"textAlignment"				"center"
 		"fgcolor"					"255 255 0 255"
@@ -276,7 +276,7 @@
 		"fgcolor"					"255 255 255 255"
 	}
 	
-	"thin wings"
+	"yz50 wings"
 	{
 		"controlName"				"CExLabel"
 		"fieldName"					"Crosshair17"
@@ -393,11 +393,11 @@
 		"enabled"					"1"
 		"xpos"						"c-100"
 		"ypos"						"0"
-		"wide"						"215"
+		"wide"						"200"
 		"tall"						"480"
 		
 		"blue_active_xpos"			"40"
-		"red_active_xpos"			"120"
+		"red_active_xpos"			"121"
 	}
 	
 	HudItemEffectMeter
@@ -429,10 +429,10 @@
 		"fieldName"					"HudDemomanCharge"
 		"visible"					"1"
 		"enabled"					"1"
-		"xpos"						"c-37"
-		"ypos"						"358"
+		"xpos"						"c-42"
+		"ypos"						"c125"
 		"zpos"						"1"
-		"wide"						"100"
+		"wide"						"84"
 		"tall"						"8"
 		"MeterFG"					"White"
 		"MeterBG"					"Gray"
@@ -443,10 +443,10 @@
 		"fieldName"					"HudBowCharge"
 		"visible"					"1"
 		"enabled"					"1"
-		"xpos"						"c-37"
-		"ypos"						"r120"
+		"xpos"						"c-42"
+		"ypos"						"c125"
 		"zpos"						"1"
-		"wide"						"100"
+		"wide"						"84"
 		"tall"						"50"
 		"MeterFG"					"White"
 		"MeterBG"					"Gray"
@@ -519,7 +519,7 @@
 	{
 		"fieldName"					"CHudAccountPanel"
 		"xpos"						"c-80"
-		"ypos"						"246"
+		"ypos"						"c105"
 		"wide"						"160"
 		"tall"						"180"
 		"visible"					"1"
@@ -556,7 +556,7 @@
 		"fieldName"					"DisguiseStatus"
 		"visible"					"1"
 		"enabled"					"1"
-		"xpos"						"c-305"
+		"xpos"						"80"
 		"ypos"						"c210"
 		"wide"						"150"
 		"tall"						"50"
@@ -568,7 +568,7 @@
 		"visible"					"0"
 		"enabled"					"1"
 		"xpos"						"c-126"
-		"ypos"						"c54"
+		"ypos"						"c30"
 		"wide"						"252"
 		"tall"						"34"
 		"priority"					"40"
@@ -580,7 +580,7 @@
 		"visible"					"0"
 		"enabled"					"1"
 		"xpos"						"c-126"
-		"ypos"						"c120"
+		"ypos"						"c100"
 		"wide"						"252"
 		"tall"						"34"
 		"priority"					"40"
@@ -592,7 +592,7 @@
 		"visible"					"0"
 		"enabled"					"1"
 		"xpos"						"c-126"
-		"ypos"						"c129"
+		"ypos"						"c65"
 		"wide"						"252"
 		"tall"						"34"
 		"priority"					"35"
@@ -754,7 +754,7 @@
 		"visible"					"1"
 		"enabled"					"1"
 		"xpos"						"r640"
-		"ypos"						"12"
+		"ypos"						"18"
 		"wide"						"628"
 		"tall"						"468"
 
@@ -1259,9 +1259,9 @@
 		"fieldName"					"HudDemomanPipes"
 		"visible"					"1"
 		"enabled"					"1"
-		"xpos"						"c-37"
-		"ypos"						"334"
-		"wide"						"74"
+		"xpos"						"c-42"
+		"ypos"						"c100"
+		"wide"						"84"
 		"tall"						"50"
 	}
 	
@@ -1471,10 +1471,11 @@
 		"fieldName"					"HudInspectPanel"
 		"visible"					"0"
 		"enabled"					"1"
-		"xpos"						"r270"
-		"ypos"						"195"
-		"wide"						"270"
-		"tall"						"150"
+		"xpos"						"r230"
+		"ypos"						"rs1"
+		"zpos"						"10"
+		"wide"						"220"
+		"tall"						"f0"
 	}
 	
 	HudTFCrosshair
@@ -1609,9 +1610,9 @@
 		"tall"						"160"
 	}
 	
-	CTFKillStreakNotice
+	CTFStreakNotice
 	{
-		"fieldName"					"CTFKillStreakNotice"
+		"fieldName"					"CTFStreakNotice"
 		"xpos"						"0"
 		"ypos"						"0"
 		"wide"						"640"
@@ -1646,6 +1647,18 @@
 		"PaintBackgroundType"		"0"
 	}
 	
+	"ItemAttributeTracker"
+	{
+		"fieldName"					"ItemAttributeTracker"
+		"visible"					"1"
+		"enabled"					"1"
+		"xpos"						"0"
+		"ypos"						"0"
+		"wide"						"f5"
+		"tall"						"f0"
+		"PaintBackgroundType"		"0"
+	}
+	
 	HudMiniGame
 	{
 		"fieldName"					"HudMiniGame"
@@ -1655,5 +1668,86 @@
 		"ypos"						"0"
 		"wide"						"f0"
 		"tall"						"480"
+	}
+	
+	"QuestNotificationPanel"
+	{
+		"fieldName"					"QuestNotificationPanel"
+		"visible"					"1"
+		"enabled"					"1"
+		"xpos"						"0"
+		"ypos"						"0"
+		"wide"						"f0"
+		"tall"						"f0"
+	}
+	
+	"QuestLogContainer"
+	{
+		"ControlName"				"EditablePanel"
+		"fieldName"					"QuestLogContainer"
+		"visible"					"1"
+		"enabled"					"1"
+		"xpos"						"0"
+		"ypos"						"0"
+		"wide"						"f0"
+		"tall"						"f0"
+	}
+	
+	"MatchMakingContainer"
+	{
+		"ControlName"				"EditablePanel"
+		"fieldName"					"MatchMakingContainer"
+		"visible"					"1"
+		"enabled"					"1"
+		"xpos"						"0"
+		"ypos"						"0"
+		"wide"						"f0"
+		"tall"						"f0"
+	}
+	
+	HudSpectatorExtras
+	{
+		"fieldName"					"HudSpectatorExtras"
+		"visible"					"1"
+		"enabled"					"1"
+		"xpos"						"0"
+		"ypos"						"0"
+		"wide"						"f0"
+		"tall"						"f0"
+	}
+	
+	MatchSummary
+	{
+		"fieldName"					"MatchSummary"
+		"visible"					"0"
+		"enabled"					"1"
+		"xpos"						"0"
+		"ypos"						"0"
+		"wide"						"f0"
+		"tall"						"f0"
+	}
+	
+	HudMatchStatus
+	{
+		"fieldName"					"HudMatchStatus"
+		"visible"					"1"
+		"enabled"					"1"
+		"xpos"						"0"
+		"ypos"						"0"
+		"zpos"						"2"
+		"wide"						"f0"
+		"tall"						"f0"
+	}
+	
+	HudTeamStatus
+	{
+		"fieldName"					"HudTeamStatus"
+		"visible"					"1"
+		"enabled"					"1"
+		"xpos"						"0"
+		"ypos"						"0"
+		"zpos"						"2"
+		"wide"						"f0"
+		"tall"						"f0"
 	}
 }

@@ -1,118 +1,124 @@
-"GameMenu"
+"GameMenu" [$WIN32]
 {
-
-	////////////////////
-	/// MAIN BUTTONS ///
-	////////////////////
-
-	"resume"
+	"ResumeGameButton"
 	{
-		"label" "#GameUI_GameMenu_ResumeGame"
-		"command" "ResumeGame"
+		"label"			"#MMenu_ResumeGame"
+		"command"		"ResumeGame"
+		"OnlyInGame"	"1"
 		"subimage" "icon_resume"
-		"OnlyInGame" "1"
 	}
-	"quickplay_menu"
+	"QuickplayButton"
 	{
-		"label" "#MMenu_StartPlaying" 
+		"label" "Quickplay"
 		"command" "quickplay"
-		"subimage" "glyph_server"
+		"subimage" "glyph_multiplayer"
 		"OnlyAtMenu" "1"
 	}
-	"quickplay_ingame"
+	"QuickplayChangeButton"
 	{
-		"label" "#MMenu_NewGame" 
+		"label" "#MMenu_NewGame"
 		"command" "quickplay"
 		"subimage" "glyph_server"
 		"OnlyInGame" "1"
 	}
-	"co-op"
+	"PlayPVEButton"
 	{
-		"label" "#MMenu_PlayCoop" 
+		"label" "Cooperative"
 		"command" "playpve"
 		"subimage" "glyph_coop"
 		"OnlyAtMenu" "1"
-	} 
-	"serverbrowser_menu"
+	}
+    "PlayCompButton"
+    {
+        "label" "Competitive" 
+        "command" "ladder_ui_show"
+        "subimage" "glyph_practice"
+        "OnlyAtMenu" "1"
+    }	
+	"ServerBrowserButton"
 	{
-		"label" "#MMenu_BrowseServers" 
+		"label" "Servers"
 		"command" "OpenServerBrowser"
 		"subimage" "glyph_server_browser"
 		"OnlyAtMenu" "1"
-	} 
-	"serverbrowser_ingame"
+	}
+	"ChangeServerButton"
 	{
-		"label" "#MMenu_ChangeServer" 
+		"label" "#MMenu_ChangeServer"
 		"command" "OpenServerBrowser"
 		"subimage" "glyph_server_browser"
 		"OnlyInGame" "1"
 	}
-	"loadout"
+	"ReplayBrowserButton"
 	{
-		"label" "#MMenu_CharacterSetup"
-		"command" "engine open_charinfo"
-		"subimage" "glyph_items"
+		"label" "Replays"
+		"command" "engine replay_reloadbrowser"
+		"subimage" "glyph_tv"
 	}
-	"console"
+	"SteamWorkshopButton"
 	{
-		"label" "console"
+		"label" "Workshop"
+		"command" "engine OpenSteamWorkshopDialog"
+		"subimage" "glyph_steamworkshop"
+	}
+	"Console"
+	{
+		"label" "Console"
 		"command" "engine con_enable 1;toggleconsole"
 		"subimage" "glyph_forums"
 	}
-	"replays"
+	"DemoUI"
+    {
+        "label" "DemoUI"
+        "command"   "engine demoui"
+    }
+	"Scoreboard"
+    {
+        "label" "Scoreboard"
+        "command"   "engine toggle cl_hud_minmode"
+    }
+
+	// These buttons get positioned by the MainMenuOverride.res
+	"CreateServerButton"
 	{
-		"label" "#GameUI_GameMenu_ReplayDemos"
-		"command" "engine replay_reloadbrowser"
-		"subimage" "glyph_tv"
+		"label" "Create"
+		"command" "OpenCreateMultiplayerGameDialog"
 		"OnlyAtMenu" "1"
 	}
-	"store"
+	"GeneralStoreButton"
 	{
-		"label" "#MMenu_Shop"
+		"label" "Store"
 		"command" "engine open_store"
 		"subimage" "glyph_store"
 	}
-	"toggle_scoreboard"
+	"CharacterSetupButton"
 	{
-		"label" "scoreboard"
-		"command" "engine toggle cl_hud_minmode"
-		"subimage" "glyph_practice"
-		"OnlyInGame" "1"
+		"label" "Items"
+		"command" "engine open_charinfo"
+		"subimage" "glyph_items"
 	}
-	
-	///////////////////
-	/// SUB BUTTONS ///
-	///////////////////
 
-	"CreateServerButton"
-	{
-		"label" "#GameUI_GameMenu_CreateServer"
-		"command" "OpenCreateMultiplayerGameDialog"
-		"OnlyAtMenu" "1"
-		"tooltip" "#GameUI_GameMenu_CreateServer"
-	}
+	// These buttons are only shown while in-game
+	// and also are positioned by the .res file
 	"CallVoteButton"
 	{
-		"label"			""
+		"label"			"Call Vote"
 		"command"		"callvote"
 		"OnlyInGame"	"1"
 		"subimage" "icon_checkbox"
-		"tooltip" "#MMenu_CallVote"
 	}
 	"MutePlayersButton"
 	{
-		"label"			""
+		"label"			"Mute Players"
 		"command"		"OpenPlayerListDialog"
 		"OnlyInGame"	"1"
 		"subimage" "glyph_muted"
-		"tooltip" "#MMenu_MutePlayers"
 	}
 	"RequestCoachButton"
 	{
-		"label"			""
+		"label"			"Request Coach"
 		"command"		"engine cl_coach_find_coach"
 		"OnlyInGame"	"1"
 		"subimage" "icon_whistle"
-		"tooltip" "#MMenu_RequestCoach"
 	}
 }

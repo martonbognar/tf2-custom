@@ -133,7 +133,7 @@
 		"xpos"						"3"
 		"ypos"						"2"
 		"wide"						"33"
-		"tall"						"132"
+		"tall"						"33"
 		"visible"					"1"
 		"enabled"					"1"
 		"HealthBonusPosAdj"			"10"
@@ -147,7 +147,7 @@
 	{
 		"ControlName"				"ImagePanel"
 		"fieldName"					"AmmoIcon"
-		"xpos"						"40"
+		"xpos"						"41"
 		"ypos"						"25" // "24" if the ammo icon is too low
 		"zpos"						"12"
 		"wide"						"8"
@@ -158,12 +158,24 @@
 		"scaleImage"				"1"
 	}
 	
+	"KillStreakIconAnchor"
+	{
+		"ControlName"				"EditablePanel"
+		"fieldName"					"KillstreakIconAnchor"
+		"xpos"						"-1"
+		"ypos"						"25" // "24" if the killstreak icon is too low
+		"wide"						"8"
+		"tall"						"8"
+		"visible"					"1"
+		"enabled"					"1"
+	}
+	
 	"KillStreakIcon"
 	{
 		"ControlName"				"ImagePanel"
 		"fieldName"					"KillStreakIcon"
-		"xpos"						"41"
-		"ypos"						"25" // "24" if the killstreak icon is too low
+		"xpos"						"0"
+		"ypos"						"0"
 		"zpos"						"12"
 		"wide"						"8"
 		"tall"						"8"
@@ -171,5 +183,8 @@
 		"enabled"					"1"
 		"image"						"../hud/leaderboard_streak"
 		"scaleImage"				"1"
+		"pin_to_sibling"			"KillstreakIconAnchor"
+		"pin_corner_to_sibling"		"1"
+		"pin_to_sibling_corner"		"1"
 	}
 }

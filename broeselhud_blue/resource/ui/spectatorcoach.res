@@ -338,45 +338,52 @@
 		"font"			"SpectatorKeyHints"
 		"fgcolor"			"255 255 255 255"
 	}
-
 	"itempanel"
 	{
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"itempanel"
-		"xpos"			"r270"
-		"ypos"			"r238"
-		"zpos"			"1"
-		"wide"			"270"
-		"tall"			"150"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"10"
+		"wide"			"220"
+		"tall"			"100"
 		"visible"		"0"
 		"bgcolor_override"		"255 255 255 0"
 		"PaintBackgroundType"	"0"
 		
-		"model_xpos"	"85"
-		"model_ypos"	"50"
-		"model_tall"	"55"
-		"text_xpos"		"8"
-		"text_wide"		"165"
+		"model_ypos"		"10"
+		"model_center_x"	"1"
+		"model_wide"		"90"
+		"model_tall"		"60"
+		
+		"text_xpos"		"10"
+		"text_ypos"		"10"
+		"text_wide"		"200"
 		"text_center"	"1"
-		"max_text_height"	"90"
+		
+		"max_text_height"	"100"
+		"padding_height"	"10"
+		"resize_to_text"	"1"
+		"text_forcesize"	"2"
 		
 		"itemmodelpanel"
 		{
-			"fieldName"		"itemmodelpanel"
-			"use_item_rendertarget" "1"
-			"useparentbg"		"1"
+			"fieldName"				"itemmodelpanel"
+			"use_item_rendertarget"	"0"
+			"useparentbg"			"1"
+			"inventory_image_type"	"1"
 		}
 		
 		"ItemLabel"
 		{	
 			"ControlName"	"Label"
 			"fieldName"		"ItemLabel"
-			"font"			"DefaultSmall"
-			"xpos"			"10"
+			"font"			"surface11"
+			"xpos"			"5"
 			"ypos"			"3"
 			"zpos"			"1"
-			"wide"			"270"
-			"tall"			"10"
+			"wide"			"200"
+			"tall"			"11"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
@@ -386,5 +393,5 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 		}
-	}	
+	}
 }
