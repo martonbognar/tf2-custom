@@ -104,27 +104,27 @@
 		"fgcolor"					"Ubercharge Label"
 	}
 
-  "ChargeLabelSmall"
-  {
-  "ControlName" "CExLabel"
-  "fieldName" "ChargeLabelSmall"
-  "xpos" "c-50"
-  "ypos" "c104"
-  "zpos" "3"
-  "wide" "100"
-  "tall" "15"
-  "autoResize" "1"
-  "pinCorner" "2"
-  "visible" "1"
-  "enabled" "1"
-  "tabPosition" "0"
-  "labelText" "#TF_UberchargeMinHUD"
-  "textAlignment" "center"
-  "dulltext" "0"
-  "brighttext" "0"
-  "fgcolor" "0 0 0 255"
-  "font" "surface16"
-  }
+	"ChargeLabelSmall"
+	{
+	"ControlName" "CExLabel"
+	"fieldName" "ChargeLabelSmall"
+	"xpos" "c-50"
+	"ypos" "c104"
+	"zpos" "3"
+	"wide" "100"
+	"tall" "15"
+	"autoResize" "1"
+	"pinCorner" "2"
+	"visible" "1"
+	"enabled" "1"
+	"tabPosition" "0"
+	"labelText" "#TF_UberchargeMinHUD"
+	"textAlignment" "center"
+	"dulltext" "0"
+	"brighttext" "0"
+	"fgcolor" "0 0 0 255"
+	"font" "surface16"
+	}
 
 	"ChargeLabelShadow"
 	{
@@ -137,7 +137,7 @@
 		"tall"						"66"
 		"autoResize"				"1"
 		"pinCorner"					"2"
-		"visible"					"1" // "1" to enable proper Ubercharge label shadow (not Vaccinator compatible)
+		"visible"					"0" // "1" to enable proper Ubercharge label shadow (not Vaccinator compatible)
 		"enabled"					"1"
 		"tabPosition"				"0"
 		"labelText"					"#TF_UberchargeMinHUD"

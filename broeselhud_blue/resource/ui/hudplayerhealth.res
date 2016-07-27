@@ -9,14 +9,14 @@
 		"zpos"						"3"
 		"wide"						"128"
 		"tall"						"128"
-		"visible"					"1" // "1" to enable the team-colored HP cross border
+		"visible"					"0" // "1" to enable the team-colored HP cross border
 		"enabled"					"1"
 		"image"						"replay/thumbnails/health_border_red"
 		"teambg_2"					"replay/thumbnails/health_border_red"
 		"teambg_3"					"replay/thumbnails/health_border_blu"
 		"scaleImage"				"1"
 	}
-
+	
 	"HudPlayerHealth"
 	{
 		"ControlName"				"EditablePanel"
@@ -27,12 +27,12 @@
 		"wide"						"250"
 		"tall"						"250"
 		"visible"					"1"
-		"enabled"					"1"
+		"enabled"					"1"	
 		"HealthBonusPosAdj"			"35"
 		"HealthDeathWarning"		"0.49"
 		"HealthDeathWarningColor"	"HUDDeathWarning"
 	}
-
+	
 	"PlayerStatusHealthImage"
 	{
 		"ControlName"				"ImagePanel"
@@ -46,7 +46,7 @@
 		"enabled"					"1"
 		"scaleImage"				"1"
 	}
-
+	
 	"PlayerStatusHealthImageBG"
 	{
 		"ControlName"				"ImagePanel"
@@ -61,22 +61,22 @@
 		"image"						"../hud/health_bg" // "replay/thumbnails/health_bg" for transparent health cross
 		"scaleImage"				"1"
 	}
-
+	
 	"PlayerStatusHealthBonusImage"
 	{
 		"ControlName"				"ImagePanel"
 		"fieldName"					"PlayerStatusHealthBonusImage"
-		"xpos"						"75"
-		"ypos"						"83"
+		"xpos"						"73"
+		"ypos"						"81"
 		"zpos"						"-4"
-		"wide"						"60" // maybe "59" if the HP cross isn't centered inside the background cross
-		"tall"						"60"
+		"wide"						"64" // maybe "63" if the HP cross isn't centered inside the background cross
+		"tall"						"64"
 		"visible"					"0"
 		"enabled"					"1"
 		"image"						"../hud/health_over_bg"
 		"scaleImage"				"1"
 	}
-
+	
 	"PlayerStatusHealthValue"
 	{
 		"ControlName"				"CExLabel"
@@ -93,7 +93,7 @@
 		"font"						"surface26"
 		"fgcolor"					"HP"
 	}
-
+	
 	"PlayerStatusHealthValueShadow"
 	{
 		"ControlName"				"CExLabel"
@@ -110,7 +110,7 @@
 		"font"						"surface26"
 		"fgcolor"					"0 0 0 255"
 	}
-
+	
 	"PlayerStatusAnchor"
 	{
 		"ControlName"				"EditablePanel"
@@ -122,7 +122,7 @@
 		"visible"					"1"
 		"enabled"					"1"
 	}
-
+	
 	"PlayerStatusBleedImage"
 	{
 		"ControlName"				"ImagePanel"
@@ -141,7 +141,7 @@
 		"pin_corner_to_sibling"		"1"
 		"pin_to_sibling_corner"		"1"
 	}
-
+	
 	"PlayerStatusMilkImage"
 	{
 		"ControlName"				"ImagePanel"
@@ -160,7 +160,7 @@
 		"pin_corner_to_sibling"		"1"
 		"pin_to_sibling_corner"		"1"
 	}
-
+	
 	"PlayerStatusMarkedForDeathImage"
 	{
 		"ControlName"				"ImagePanel"
@@ -179,7 +179,7 @@
 		"pin_corner_to_sibling"		"1"
 		"pin_to_sibling_corner"		"1"
 	}
-
+	
 	"PlayerStatusMarkedForDeathSilentImage"
 	{
 		"ControlName"				"ImagePanel"
@@ -198,7 +198,7 @@
 		"pin_corner_to_sibling"		"1"
 		"pin_to_sibling_corner"		"1"
 	}
-
+	
 	"PlayerStatus_MedicUberBulletResistImage"
 	{
 		"ControlName"				"ImagePanel"
@@ -217,7 +217,7 @@
 		"pin_corner_to_sibling"		"1"
 		"pin_to_sibling_corner"		"1"
 	}
-
+	
 	"PlayerStatus_MedicUberBlastResistImage"
 	{
 		"ControlName"				"ImagePanel"
@@ -236,7 +236,7 @@
 		"pin_corner_to_sibling"		"1"
 		"pin_to_sibling_corner"		"1"
 	}
-
+	
 	"PlayerStatus_MedicUberFireResistImage"
 	{
 		"ControlName"				"ImagePanel"
@@ -255,7 +255,7 @@
 		"pin_corner_to_sibling"		"1"
 		"pin_to_sibling_corner"		"1"
 	}
-
+	
 	"PlayerStatus_MedicSmallBulletResistImage"
 	{
 		"ControlName"				"ImagePanel"
@@ -274,7 +274,7 @@
 		"pin_corner_to_sibling"		"1"
 		"pin_to_sibling_corner"		"1"
 	}
-
+	
 	"PlayerStatus_MedicSmallBlastResistImage"
 	{
 		"ControlName"				"ImagePanel"
@@ -293,7 +293,7 @@
 		"pin_corner_to_sibling"		"1"
 		"pin_to_sibling_corner"		"1"
 	}
-
+	
 	"PlayerStatus_MedicSmallFireResistImage"
 	{
 		"ControlName"				"ImagePanel"
@@ -312,7 +312,7 @@
 		"pin_corner_to_sibling"		"1"
 		"pin_to_sibling_corner"		"1"
 	}
-
+	
 	"PlayerStatus_WheelOfDoom"
 	{
 		"ControlName"				"ImagePanel"
@@ -328,7 +328,7 @@
 		"image"						"../signs/death_wheel_whammy"
 		"fgcolor"					"TanDark"
 	}
-
+	
 	"PlayerStatus_SoldierOffenseBuff"
 	{
 		"ControlName"				"ImagePanel"
@@ -347,7 +347,7 @@
 		"pin_corner_to_sibling"		"1"
 		"pin_to_sibling_corner"		"1"
 	}
-
+	
 	"PlayerStatus_SoldierDefenseBuff"
 	{
 		"ControlName"				"ImagePanel"
@@ -366,7 +366,7 @@
 		"pin_corner_to_sibling"		"1"
 		"pin_to_sibling_corner"		"1"
 	}
-
+	
 	"PlayerStatus_SoldierHealOnHitBuff"
 	{
 		"ControlName"				"ImagePanel"
@@ -385,7 +385,7 @@
 		"pin_corner_to_sibling"		"1"
 		"pin_to_sibling_corner"		"1"
 	}
-
+	
 	"PlayerStatus_Parachute"
 	{
 		"ControlName"				"ImagePanel"
@@ -404,7 +404,7 @@
 		"pin_corner_to_sibling"		"1"
 		"pin_to_sibling_corner"		"1"
 	}
-
+	
 	"PlayerStatus_RuneStrength"
 	{
 		"ControlName"				"ImagePanel"
@@ -423,7 +423,7 @@
 		"pin_corner_to_sibling"		"1"
 		"pin_to_sibling_corner"		"1"
 	}
-
+	
 	"PlayerStatus_RuneHaste"
 	{
 		"ControlName"				"ImagePanel"
@@ -442,7 +442,7 @@
 		"pin_corner_to_sibling"		"1"
 		"pin_to_sibling_corner"		"1"
 	}
-
+	
 	"PlayerStatus_RuneRegen"
 	{
 		"ControlName"				"ImagePanel"
@@ -461,7 +461,7 @@
 		"pin_corner_to_sibling"		"1"
 		"pin_to_sibling_corner"		"1"
 	}
-
+	
 	"PlayerStatus_RuneResist"
 	{
 		"ControlName"				"ImagePanel"
@@ -480,7 +480,7 @@
 		"pin_corner_to_sibling"		"1"
 		"pin_to_sibling_corner"		"1"
 	}
-
+	
 	"PlayerStatus_RuneVampire"
 	{
 		"ControlName"				"ImagePanel"
@@ -499,7 +499,7 @@
 		"pin_corner_to_sibling"		"1"
 		"pin_to_sibling_corner"		"1"
 	}
-
+	
 	"PlayerStatus_RuneReflect"
 	{
 		"ControlName"				"ImagePanel"
@@ -518,7 +518,7 @@
 		"pin_corner_to_sibling"		"1"
 		"pin_to_sibling_corner"		"1"
 	}
-
+	
 	"PlayerStatus_RunePrecision"
 	{
 		"ControlName"				"ImagePanel"
@@ -537,7 +537,7 @@
 		"pin_corner_to_sibling"		"1"
 		"pin_to_sibling_corner"		"1"
 	}
-
+	
 	"PlayerStatus_RuneAgility"
 	{
 		"ControlName"				"ImagePanel"
@@ -556,7 +556,7 @@
 		"pin_corner_to_sibling"		"1"
 		"pin_to_sibling_corner"		"1"
 	}
-
+	
 	"PlayerStatus_RuneKnockout"
 	{
 		"ControlName"				"ImagePanel"
@@ -575,7 +575,7 @@
 		"pin_corner_to_sibling"		"1"
 		"pin_to_sibling_corner"		"1"
 	}
-
+	
 	"PlayerStatus_RuneKing"
 	{
 		"ControlName"				"ImagePanel"
@@ -594,7 +594,7 @@
 		"pin_corner_to_sibling"		"1"
 		"pin_to_sibling_corner"		"1"
 	}
-
+	
 	"PlayerStatus_RunePlague"
 	{
 		"ControlName"				"ImagePanel"
@@ -613,7 +613,7 @@
 		"pin_corner_to_sibling"		"1"
 		"pin_to_sibling_corner"		"1"
 	}
-
+	
 	"PlayerStatus_RuneSupernova"
 	{
 		"ControlName"				"ImagePanel"

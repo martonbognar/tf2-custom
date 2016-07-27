@@ -18,9 +18,10 @@ event HudHealthBonusPulse
 	Animate PlayerStatusHealthBonusImage	Alpha	"255"	linear 0.0 0.2
 	Animate PlayerStatusHealthBonusImage	Alpha	"0"		linear 0.2 0.4
 	
-	Animate PlayerStatusHealthvalue			FgColor	"buffed HP"				linear 0.0 0.0
-	Animate PlayerStatusHealthvalueShadow	FgColor	"buff shadow"			linear 0.0 0.0
-	Animate PlayerStatusHealthvalueTargetID	FgColor	"TargetID buffed HP"	linear 0.0 0.0
+	Animate PlayerStatusHealthvalue			FgColor	"buffed HP"			linear 0.0 0.0
+	Animate PlayerStatusHealthvalueShadow	FgColor	"buff shadow"		linear 0.0 0.0
+	Animate TournamentSpectatorHealth		FgColor	"50 205 50 255"		linear 0.0 0.0
+	Animate TargetIDbuffedHealthBG			Alpha	"255"				linear 0.0 0.0
 	
 	RunEvent HudHealthBonusPulseLoop 0.4
 }
@@ -30,9 +31,10 @@ event HudHealthBonusPulseStop
 	StopEvent HudHealthBonusPulse		0.0
 	StopEvent HudHealthBonusPulseLoop	0.0
 	
-	Animate PlayerStatusHealthvalue			fgcolor	"HP"		accel 0.0 0.0
-	Animate PlayerStatusHealthvalueShadow	fgcolor	"0 0 0 255"	accel 0.0 0.0
-	Animate PlayerStatusHealthvalueTargetID	fgcolor	"HP"		accel 0.0 0.0
+	Animate PlayerStatusHealthvalue			fgcolor	"HP"				linear 0.0 0.0
+	Animate PlayerStatusHealthvalueShadow	fgcolor	"0 0 0 255"			linear 0.0 0.0
+	Animate TournamentSpectatorHealth		FgColor	"255 255 255 255"	linear 0.0 0.0
+	Animate TargetIDbuffedHealthBG			Alpha	"0"					linear 0.0 0.0
 }
 
 event HudHealthDyingPulse
@@ -41,7 +43,8 @@ event HudHealthDyingPulse
 	Animate PlayerStatusHealthBonusImage	Alpha	"0"		linear 0.125 0.075
 	
 	Animate PlayerStatusHealthvalue			FgColor	"low HP"			linear 0.0 0.0
-	Animate PlayerStatusHealthvalueTargetID	FgColor	"TargetID low HP"	linear 0.0 0.0
+	Animate PlayerStatusHealthvalueTargetID	FgColor	"255 165 0 255"		linear 0.0 0.0
+	Animate TournamentSpectatorHealth		FgColor	"255 165 0 255"		linear 0.0 0.0
 	
 	RunEvent HudHealthDyingPulseLoop 0.25
 }
@@ -51,8 +54,9 @@ event HudHealthDyingPulseStop
 	StopEvent HudHealthDyingPulse		0.0
 	StopEvent HudHealthDyingPulseLoop	0.0
 	
-	Animate PlayerStatusHealthvalue			fgcolor	"HP"	accel 0.0 0.0
-	Animate PlayerStatusHealthvalueTargetID	fgcolor	"HP"	accel 0.0 0.0
+	Animate PlayerStatusHealthvalue			fgcolor	"HP"				linear 0.0 0.0
+	Animate PlayerStatusHealthvalueTargetID	fgcolor	"255 255 255 255"	linear 0.0 0.0
+	Animate TournamentSpectatorHealth		FgColor	"255 255 255 255"	linear 0.0 0.0
 }
 
 event HudLowAmmoPulse
@@ -89,26 +93,17 @@ event HudLowAmmoPulseStop
 
 event HudSpyDisguiseChanged
 {
-	Animate PlayerStatusSpyOutlineImage	Alpha		"0"				linear 0.0 0.2
-	
-	Animate PlayerStatusSpyOutlineImage	Position	"c-200 c-200"	linear 0.0 0.2
-	Animate PlayerStatusSpyOutlineImage	Size		"400 400"		linear 0.0 0.2
-	
-	RunEvent HudSpyDisguiseHide 0.7
+	Animate PlayerStatusSpyOutlineImage	Alpha	"0"		linear 0.0 0.0
 }
 
 event HudSpyDisguiseFadeIn
 {
-	RunEvent HudSpyDisguiseChanged 0
-	
-	Animate PlayerStatusSpyImage	Alpha	"255"	linear 0.0 0.0
+	Animate PlayerStatusClassImage		Alpha	"255"	linear 0.0 0.0
 }
 
 event HudSpyDisguiseFadeOut
 {
-	RunEvent HudSpyDisguiseChanged 0
-	
-	Animate PlayerStatusSpyImage	Alpha	"0"		linear 0.0 0.0
+	Animate PlayerStatusClassImage		Alpha	"0"		linear 0.0 0.0
 }
 
 event HudMedicCharged
@@ -129,15 +124,21 @@ event HudMedicChargedStop
 	Animate ChargeLabel	FgColor	"Ubercharge Label"	linear 0.0 0.0
 }
 
-event ActiveTimerBGPulse
-{
-}
-
 event ActiveTimerHighlight
 {
+	Animate TimePanelValue	FgColor	"255 255 255 255"	linear 0.0 0.0
 }
 
 event ActiveTimerDim
+{
+	Animate TimePanelValue	FgColor	"160 160 160 255"	linear 0.0 0.0
+}
+
+event OvertimeLabelPulseRed
+{
+}
+
+event SuddenDeathLabelPulseRed
 {
 }
 
@@ -147,4 +148,14 @@ event CompetitiveGame_LowerChatWindow
 
 event CompetitiveGame_RestoreChatWindow
 {
+}
+
+event WinPanel_CompPos
+{
+	Animate WinPanel ypos 315 linear 0 0
+}
+
+event WinPanel_NormalPos
+{
+	Animate WinPanel ypos 315 linear 0 0
 }
